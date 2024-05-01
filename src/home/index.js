@@ -23,7 +23,7 @@ function App() {
 
   async function addNewOrder(){
 
-const {data:newOrder} = await axios.post("http://localhost:8080/order",{
+const {data:newOrder} = await axios.post("https://hamburgueria-backend.vercel.app/order",{
 lista: inputOrder.current.value,
 clienteName: inputName.current.value,
 price: "R$10,00",

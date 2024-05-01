@@ -19,7 +19,7 @@ const history = useHistory()
 
 useEffect(() =>{
 async function fetchOrders (){
-    const {data:newOrders} = await axios.get("http://localhost:8080/order");
+    const {data:newOrders} = await axios.get("https://hamburgueria-backend.vercel.app/order");
 
     setOrders (newOrders)
 }
@@ -27,9 +27,9 @@ fetchOrders()
     }, [])
 
     async function updateOrder(orderId) {
-        await axios.patch(`http://localhost:8080/order/${orderId}`)
+        await axios.patch(`https://hamburgueria-backend.vercel.app/order/${orderId}`)
 
-        const { data: newStatus } = await axios.get("http://localhost:8080/order")
+        const { data: newStatus } = await axios.get("https://hamburgueria-backend.vercel.app/order")
         setOrders(newStatus);
     }
     function update(orderId){
@@ -54,7 +54,7 @@ fetchOrders()
     )};
 
     async function deleteOrder(orderId) {
-        await axios.delete(`http://localhost:8080/order/${orderId}`)
+        await axios.delete(`https://hamburgueria-backend.vercel.app/order/${orderId}`)
         const newOrders = orders.filter(order => order.id !== orderId);
         
         setOrders(newOrders);
