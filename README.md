@@ -5,7 +5,7 @@
 
   <h2>Recursos</h2>
   <ul>
-    <li>Pedidos Online</li>
+    <li>Pedido Online</li>
   </ul>
 
 <h2>Deploy</h2>
