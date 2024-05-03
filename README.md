@@ -3,6 +3,11 @@
     <p align="center"> <img src="https://i.ibb.co/yX30BGk/Group-1.png" alt="Group-1" border="0"/> </p>
     <p align="center">Bem-vindo ao projeto Hamburgueria! Este é um projeto simples de uma aplicação de hamburgueria.</p>
 
+  <h2>Recursos</h2>
+  <ul>
+    <li>Pedidos Online</li>
+  </ul>
+
 <h2>Deploy</h2>
    <p>
         <a href="https://github.com/katyalmeida/hamburgueria-backend.git">Repositório Back-end</a>
