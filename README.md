@@ -4,11 +4,11 @@
     <p align="center">Bem-vindo ao projeto Hamburgueria! Este é um projeto simples de uma aplicação de hamburgueria.</p>
 
 <h2>Deploy</h2>
-   <p align="center">
+   <p>
         <a href="https://github.com/katyalmeida/hamburgueria-backend.git">Repositório Back-end</a>
     </p>
- <h2 align="center">Tecnologias Utilizadas</h2>
-    <ul align="center">
+ <h2>Tecnologias Utilizadas</h2>
+    <ul>
         <li>React</li>
         <li>Swal Alert</li>
         <li>JavaScript</li>
