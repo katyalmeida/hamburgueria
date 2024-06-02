@@ -1,7 +1,7 @@
 
   <h1 align="center">Projeto Hamburgueria</h1>
     <p align="center"> <img src="https://i.ibb.co/PD9WTnj/Group-1-1.png" alt="Group-1" border="0"/> </p>
-    <p align="center">  Bem-vindo ao projeto Hamburgueria! Este projeto consiste em uma aplicação simples para gerenciar pedidos de uma hamburgueria. A aplicação permite que os clientes façam seus pedidos, além de possibilitar a exclusão e confirmação dos mesmos.
+    <p>  Bem-vindo ao projeto Hamburgueria! Este projeto consiste em uma aplicação simples para gerenciar pedidos de uma hamburgueria. A aplicação permite que os clientes façam seus pedidos, além de possibilitar a exclusão e confirmação dos mesmos.
 
 Tecnologias Utilizadas:
 React: Utilizado para construir a interface do usuário de forma dinâmica e responsiva.
