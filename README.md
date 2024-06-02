@@ -4,7 +4,7 @@
     <p>  Bem-vindo ao projeto Hamburgueria! Este projeto consiste em uma aplicação simples para gerenciar pedidos de uma hamburgueria. A aplicação permite que os clientes façam seus pedidos, além de possibilitar a exclusão e confirmação dos mesmos.
 
 Tecnologias Utilizadas:
-React: Utilizado para construir a interface do usuário de forma dinâmica e responsiva.
+<b>React</b>: Utilizado para construir a interface do usuário de forma dinâmica e responsiva.
 Swal Alert: Integrado para exibir alertas e mensagens de feedback aos usuários.
 JavaScript: A linguagem principal usada para a lógica de desenvolvimento do projeto.
 Styled Components: Utilizado para estilizar os componentes de forma modular e reutilizável.
