@@ -1,70 +1,28 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h1 align="center">Projeto Hamburgueria</h1>
+    <p align="center"> <img src="https://i.ibb.co/PD9WTnj/Group-1-1.png" alt="Group-1" border="0"/> </p>
+    <p>  Bem-vindo ao projeto Hamburgueria! Este projeto consiste em uma aplicação simples para gerenciar pedidos de uma hamburgueria. A aplicação permite que os clientes façam seus pedidos, além de possibilitar a exclusão e confirmação dos mesmos. <a href="https://react.dev/">React</a>  que foi utilizado para construir a interface do usuário de forma dinâmica e responsiva. <a href="https://sweetalert2.github.io/">Sweet Alert</a>  integrado para exibir alertas e mensagens de feedback aos usuários. <a href="https://devdocs.io/javascript/">JavaScript</a>  é a linguagem principal usada para a lógica de desenvolvimento do projeto. <a href="https://styled-components.com/docs">Styled Components</a>  utilizado para estilizar os componentes de forma modular e reutilizável. <a href="https://expressjs.com/">Express.js</a>  utilizado no backend para gerenciar as rotas e a lógica do servidor. <a href="https://axios-http.com/docs/api_intro">Axios</a>  empregado para realizar requisições HTTP e comunicação com o backend.UUID utilizado para gerar identificadores únicos para os pedidos.Com essa combinação de tecnologias, foi possível criar uma aplicação eficiente e intuitiva para os clientes da hamburgueria, melhorando a experiência de pedidos online.
+</p>
+  <h2>Recursos</h2>
+  <ul>
+    <li>Pedido Online</li>
+  </ul>
 
-## Available Scripts
+<h2>Deploy</h2>
+   <p>
+        <a href="https://github.com/katyalmeida/hamburgueria-backend.git">Repositório Back-end</a>
+    </p>
+ <h2>Tecnologias Utilizadas</h2>
+    <ul>
+        <li>React</li>
+        <li>Swal Alert</li>
+        <li>JavaScript</li>
+        <li>Styled Components</li>
+        <li>Express.js</li>
+        <li>Axios</li>
+        <li>UUID</li>
+    </ul>
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   <footer align="center">
+        &copy; 2024 Projeto Hamburgueria
+    </footer>
