@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 
 import Burguer from '../assets/burguer.png';
 
-import { Container, ContainerItens, H1, Input, Button, Image} from './styles';
+import { Container, ContainerItens, H1, Input, Button, Image, InputLabel} from './styles';
 
 
 
@@ -45,9 +45,13 @@ status:"Em preparação",
 
     <Image src={Burguer} alt="logo"/>
     <H1>Faça seu Pedido!</H1>
-        <Input ref={inputOrder} placeholder="Pedido"/>
+   
+    <InputLabel>Pedido</InputLabel>
+        <Input ref={inputOrder} placeholder="Escreva aqui"/>
 
-        <Input ref={inputName} placeholder="Nome"/>
+        <InputLabel>Nome</InputLabel>
+
+        <Input ref={inputName} placeholder="Escreva aqui"/>
 
         <Button onClick={addNewOrder}>Novo Pedido</Button>
 

@@ -17,7 +17,7 @@ flex-direction: column;
 align-items: center;
 border:1px solid #DCDCDC; 
 width: 24%;
-height: 800px;
+height: 600px;
 border-radius: 14px;
 cursor: pointer;
 
@@ -28,22 +28,23 @@ box-shadow: 0px 2px 5px  0px white, 0px 2px 10px #FF8C00 ;
 `
 
 export const  H1 = styled.h1`
-margin: 60px 0;
-font-size: 30px;
+margin: 23px 0;
+font-size: 25px;
 color: white;
+margin-bottom: 50px;
 
 `
 
 
 export const  Input = styled.input`
-width: 342px;
-height: 58px;
+width: 260px;
+height: 50px;
 border-radius: 14px;
 border: none;
 outline: none;
 padding-left: 25px;
-margin-bottom: 45px;
-font-size: 20px;
+margin-bottom: 30px;
+font-size: 15px;
 font-weight: 400;
 line-height: 28.13px;
 font-style: normal;
@@ -52,13 +53,14 @@ color:black;
 
 export const  Button = styled.button`
 
-width: 342px;
-height: 58px;
+width: 250px;
+height: 45px;
 background-color:#FF8C00 ;
 border: none;
-font-size: 20px;
-font-weight: 1000;
+font-size: 18px;
+font-weight: 800;
 cursor: pointer;
+border-radius: 15px;
 
 
 &:hover{
@@ -70,8 +72,16 @@ cursor: pointer;
 
 `
 export const  Image = styled.img`
-width: 220px;
-margin: 40px;
+width: 160px;
+margin: 30px;
+
+
+
+`
+export const InputLabel =styled.p`
+color: white;
+padding-right: 180px;
+font-size: 14px;
 
 
 

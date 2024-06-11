@@ -21,8 +21,7 @@ border:1px solid #DCDCDC;
 width: 24%;
 border-radius: 14px;
 cursor: pointer;
-margin-top: 25px;
-height: 1000px;
+height: 600px;
 
 
 box-shadow: 0px 2px 5px  0px white, 0px 2px 10px #FF8C00 ; 
@@ -31,22 +30,23 @@ box-shadow: 0px 2px 5px  0px white, 0px 2px 10px #FF8C00 ;
 `
 
 export const  H1 = styled.h1 `
-margin: 13px 0;
-font-size: 32px;
+margin: 10px 0;
+font-size: 25px;
 color: white;
 
 `
 
 export const Button = styled.button `
-width: 342px;
-height: 58px;
+width: 250px;
+height: 48px;
 background-color:#FF8C00 ;
 border: none;
 font-size: 22px;
-font-weight: 1000;
-margin-top: 140px;
-margin-bottom: 60px;
+font-weight: 700;
+margin-top: 50px;
+margin-bottom: 30px;
 cursor: pointer;
+border-radius: 10px;
 
 &:hover{
     opacity: 0.8;
@@ -60,22 +60,22 @@ cursor: pointer;
 `
 
 export const  Image = styled.img `
-width: 180px;
-margin: 30px;
+width: 100px;
+margin: 20px;
 
 
 `
 export const Order = styled.li`
-margin-top: 25px;
+margin-top: 10px;
 display: flex;
 flex-direction: row;
 justify-content: space-around;
 align-items: center;
 box-shadow: 0px 4px 4px 0px #00000040;
 background: #FFFFFF;
-border-radius: 14px;
-width: 352px;
-height: 130px;
+border-radius: 10px;
+width: 300px;
+height: 100px;
 border: none;
 outline: none;
 
@@ -83,7 +83,7 @@ outline: none;
 .buttons{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
 
 }
 .paragrafos{
@@ -93,15 +93,15 @@ outline: none;
 
 }
 .trash{
-    width: 25px;
+    width: 20px;
 }
 .status{
-    width: 30px;
+    width: 25px;
 }
 p{
-    font-size: 20px;
+    font-size: 14px;
 font-weight: 600;
-line-height: 28.13px;
+line-height: 22.13px;
 font-style: normal;
 color: black;
 
