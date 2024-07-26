@@ -13,7 +13,8 @@ import { Container, ContainerItens, Image, H1, Button, Order } from './styles';
 
 
 
-    function Orders() {
+function Orders() {
+        
 const [orders, setOrders] = useState([]);
 const history = useHistory()
 

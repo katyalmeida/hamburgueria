@@ -25,7 +25,24 @@ height: 600px;
 
 
 box-shadow: 0px 2px 5px  0px white, 0px 2px 10px #FF8C00 ; 
+  @media (max-width: 1191px)  {
+    width: 32%;
+    padding: 20px;
+}
+  @media (max-width: 800px)  {
+    width: 40%;
+        padding: 20px;
 
+}
+ /* @media (max-width: 800px)  {
+    width: 200px;
+     height: 140px;
+} */
+  @media (max-width: 570px)  {
+    width: 70%;
+        padding: 20px;
+
+}
 
 `
 
@@ -113,7 +130,22 @@ button{
     cursor: pointer;
 }
 
-
+  @media (max-width: 1286px)  {
+    width: 250px;
+     height: 130px;
+}
+  @media (max-width: 1191px)  {
+    width: 300px;
+     height: 140px;
+}
+  @media (max-width: 800px)  {
+    width: 240px;
+     height: 140px;
+}
+  @media (max-width: 570px)  {
+    width:230px ;
+     height: 150px;
+}
  `
 
 

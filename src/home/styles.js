@@ -21,7 +21,29 @@ height: 600px;
 border-radius: 14px;
 cursor: pointer;
 
-box-shadow: 0px 2px 5px  0px white, 0px 2px 10px #FF8C00 ; 
+box-shadow: 0px 2px 5px  0px white, 0px 2px 10px #FF8C00 ;
+
+
+  @media (max-width: 1191px)  {
+    width: 35%;
+    padding: 20px;
+     height: auto;
+       box-shadow: 0px 1px 3px 0px white, 0px 1px 5px #ff8c00;
+}
+  @media (max-width: 770px)  {
+    width: 45%;
+    padding: 20px;
+     height: auto;
+       box-shadow: 0px 1px 3px 0px white, 0px 1px 5px #ff8c00;
+}
+  @media (max-width: 570px)  {
+    width: 70%;
+    padding: 20px;
+     height: auto;
+       box-shadow: 0px 1px 3px 0px white, 0px 1px 5px #ff8c00;
+}
+
+
 
 
 
@@ -49,6 +71,11 @@ font-weight: 400;
 line-height: 28.13px;
 font-style: normal;
 color:black;
+
+@media (max-width: 400px)  {
+    width: 230px;
+height: 50px;
+}
 `
 
 export const  Button = styled.button`
@@ -69,6 +96,9 @@ border-radius: 15px;
     
     &:hover{
     opacity: 0.5;}
+    @media (max-width: 400px)  {
+    width: 220px;
+}
 
 `
 export const  Image = styled.img`
@@ -82,6 +112,11 @@ export const InputLabel =styled.p`
 color: white;
 padding-right: 180px;
 font-size: 14px;
+
+    @media (max-width: 400px)  {
+        padding-right: 160px;
+
+}
 
 
 
